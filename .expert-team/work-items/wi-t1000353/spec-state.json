@@ -2,14 +2,41 @@
   "schemaVersion": 2,
   "specId": "general-application-development-spec",
   "specRevision": 14,
-  "state": "requirements_ready",
-  "revision": 1,
+  "state": "design_ready",
+  "revision": 2,
   "completedActions": [
-    "requirements"
+    "requirements",
+    "design"
   ],
   "blockers": [],
   "deliveryProfile": "standard",
   "graphRevision": 5,
   "graphHash": "sha256:9c3f304cfbb65de471791c872bf851dad3a7099e6db2e677caa20833d98192dd",
-  "updatedAt": "2026-10-23T07:05:06.544Z"
+  "updatedAt": "2026-10-23T07:07:02.742Z",
+  "applicationProfile": {
+    "schemaVersion": 1,
+    "applicationType": "simple-frontend",
+    "source": {
+      "artifactPath": "docs/wi-t1000353/requirements.md",
+      "sha256": "sha256:ed69aed96faa07b2c9d2e7d9aa22bad5cb8ca42f8431de20de29148059a4c0db"
+    },
+    "reason": "本任务为纯静态图形展示页面：唯一验收场景 AC-01 只验证浏览器直接打开页面后的渲染与视觉表现，无数据、无交互存储、无任何服务端能力需求，明确排除服务端权威数据、认证、后台任务、外部集成与共享数据。",
+    "evidence": {
+      "supporting": [
+        "需求快照唯一验收场景 AC-01 的验证动作是在浏览器中直接打开哭脸页面，查看页面渲染结果，属纯前端渲染验证（证据类型 runtime-render、visual-style）",
+        "需求明确页面可直接打开查看：无需登录或其他前置操作，排除认证等前置能力",
+        "所有表情元素（圆形脸部、眼睛、下垂嘴角、泪滴）均为静态图形表现，无数据读取或存储",
+        "表现细节（标题、配色、尺寸、动画）未规定，实现阶段可采用保守默认值"
+      ],
+      "excluding": [
+        "需求未要求服务端权威数据或数据库",
+        "需求未要求认证/权限，且明确无需登录或其他前置操作",
+        "需求未要求后台任务、外部服务或第三方集成",
+        "需求未要求跨用户或跨设备共享数据，也无 CRUD 或数据持久化要求"
+      ],
+      "unresolved": []
+    },
+    "decidedAt": "2026-10-23T07:06:07.768Z",
+    "sha256": "sha256:af59dd9e7d9a02cde2e368dbb68141bda1aa288438c4aaba6414ac8f1ca873d0"
+  }
 }

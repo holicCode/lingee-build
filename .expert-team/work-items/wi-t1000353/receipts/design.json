@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "receiptId": "design:2",
+  "receiptType": "architecture-plan",
+  "specId": "general-application-development-spec",
+  "graphRevision": 5,
+  "actionId": "design",
+  "inputRevision": 1,
+  "stateVersion": 2,
+  "outcome": "passed",
+  "contentHash": "sha256:0deac2b22a1fc9b1fc0b6770d35c1ad8c018a284fdf01dd7ede37e9a55b7dba1",
+  "createdAt": "2026-10-23T07:07:02.742Z",
+  "timing": {
+    "startedAt": "2026-10-23T07:05:38.928Z",
+    "completedAt": "2026-10-23T07:07:02.742Z",
+    "durationMs": 83814
+  },
+  "artifacts": [
+    {
+      "path": "docs/wi-t1000353/architecture-baseline.md",
+      "bytes": 2176,
+      "sha256": "sha256:7565dfb30cf476600ea65d8e9882232977977bb67e63f4a1d151ff427c8448db",
+      "role": "primary",
+      "purpose": "哭脸界面 compact 架构基线：页面与交互范围、无数据/无服务端的数据归属、React+Vite SPA 实现入口与运行方式",
+      "title": "哭脸界面架构基线（WorkItem wi-t1000353）"
+    }
+  ],
+  "verification": [
+    {
+      "checkId": "design:completion",
+      "status": "passed"
+    },
+    {
+      "checkId": "design:application-route",
+      "status": "passed",
+      "applicationProfile": {
+        "applicationType": "simple-frontend",
+        "routeId": "compact",
+        "sha256": "sha256:af59dd9e7d9a02cde2e368dbb68141bda1aa288438c4aaba6414ac8f1ca873d0",
+        "path": ".expert-team/work-items/wi-t1000353/spec-state.json#/applicationProfile"
+      }
+    }
+  ]
+}
