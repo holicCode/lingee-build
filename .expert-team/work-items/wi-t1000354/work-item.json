@@ -4,8 +4,15 @@
   "workItemType": "initial-build",
   "title": "测试任务三\n\n创建一个生气脸界面：在浏览器中展示一个生气表情图形页面，包含圆形脸部、皱起的眉毛、眼睛与下撇愤怒的嘴型等表情元素，页面可直接打开查看。",
   "request": "测试任务三\n\n创建一个生气脸界面：在浏览器中展示一个生气表情图形页面，包含圆形脸部、皱起的眉毛、眼睛与下撇愤怒的嘴型等表情元素，页面可直接打开查看。",
-  "status": "active",
+  "status": "completed",
   "specId": "general-application-development-spec",
-  "revision": 0,
-  "createdAt": "2026-10-23T07:04:31.587Z"
+  "revision": 1,
+  "createdAt": "2026-10-23T07:04:31.587Z",
+  "completedAt": "2026-10-23T07:16:14.214Z",
+  "completion": {
+    "applicationRevision": 1,
+    "snapshotHash": "sha256:f396b83b43c98154032518cfd31acff7863d57ef4ba31af0c643bd402085a57e",
+    "completedAt": "2026-10-23T07:16:14.214Z"
+  },
+  "updatedAt": "2026-10-23T07:16:14.214Z"
 }
