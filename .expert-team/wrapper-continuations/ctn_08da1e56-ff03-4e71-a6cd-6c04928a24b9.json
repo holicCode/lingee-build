@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "continuationId": "ctn_08da1e56-ff03-4e71-a6cd-6c04928a24b9",
+  "workItemId": "wi-t1000352",
+  "workspaceRealpath": "/Users/kingdee/lingeebuild-beta/workspaces/42af49458a45340cc33efce9460b27db/付鹏城测试空间/.lingee-task-worktrees/wi-t1000352",
+  "target": "workflow",
+  "operation": "complete",
+  "fixedArguments": {
+    "--workspace": "/Users/kingdee/lingeebuild-beta/workspaces/42af49458a45340cc33efce9460b27db/付鹏城测试空间/.lingee-task-worktrees/wi-t1000352",
+    "--work-item": "wi-t1000352",
+    "--action": "verification",
+    "--expected-revision": 3,
+    "--verification-json": "/Users/kingdee/lingeebuild-beta/workspaces/42af49458a45340cc33efce9460b27db/付鹏城测试空间/.lingee-task-worktrees/wi-t1000352/docs/wi-t1000352/verification.json",
+    "--result-status": "completed"
+  },
+  "requiredInputs": {},
+  "status": "pending",
+  "createdAt": "2026-10-23T07:07:39.230Z",
+  "consumedAt": null
+}

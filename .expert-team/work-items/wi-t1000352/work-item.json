@@ -4,8 +4,15 @@
   "workItemType": "initial-build",
   "title": "测试任务一\n\n创建一个笑脸界面：在浏览器中展示一个笑脸图形页面，包含圆形脸部、眼睛与上扬的嘴角等表情元素，页面可直接打开查看。",
   "request": "测试任务一\n\n创建一个笑脸界面：在浏览器中展示一个笑脸图形页面，包含圆形脸部、眼睛与上扬的嘴角等表情元素，页面可直接打开查看。",
-  "status": "active",
+  "status": "completed",
   "specId": "general-application-development-spec",
-  "revision": 0,
-  "createdAt": "2026-10-23T06:58:45.343Z"
+  "revision": 1,
+  "createdAt": "2026-10-23T06:58:45.343Z",
+  "completedAt": "2026-10-23T07:10:55.898Z",
+  "completion": {
+    "applicationRevision": 1,
+    "snapshotHash": "sha256:afdc5ffde117dc42884ecca90f35bb4db1828bec2de19fc0302fd00510c46512",
+    "completedAt": "2026-10-23T07:10:55.898Z"
+  },
+  "updatedAt": "2026-10-23T07:10:55.898Z"
 }
