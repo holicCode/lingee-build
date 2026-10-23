@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 2,
+  "receiptId": "implementation:3",
+  "receiptType": "implementation-report",
+  "specId": "general-application-development-spec",
+  "graphRevision": 5,
+  "actionId": "implementation",
+  "inputRevision": 2,
+  "stateVersion": 3,
+  "outcome": "passed",
+  "contentHash": "sha256:427a1697124abca8b947b0fbfe9a0f88766012d6da5287ebf566e73cd053e93e",
+  "createdAt": "2026-10-23T07:12:14.146Z",
+  "timing": {
+    "startedAt": "2026-10-23T07:07:40.084Z",
+    "completedAt": "2026-10-23T07:12:14.145Z",
+    "durationMs": 274061
+  },
+  "artifacts": [
+    {
+      "path": "docs/wi-t1000353/implementation-report.md",
+      "bytes": 4458,
+      "sha256": "sha256:3b594fffacf19a15171bd9392dc77baa71f97e5c05738296d161d686a1164663",
+      "role": "implementation-report",
+      "purpose": "实现阶段汇报产物：变更行为、实现范围、哭脸图形实现细节、开发验证证据（类型检查/单元测试/构建/开发服务器）、预览入口与遗留风险",
+      "title": "哭脸界面实现报告（WorkItem wi-t1000353）"
+    }
+  ],
+  "url": "http://localhost:5174/",
+  "verification": [
+    {
+      "checkId": "impl-typecheck",
+      "status": "passed",
+      "command": "npm run typecheck",
+      "exitCode": 0,
+      "workdir": "repository root"
+    },
+    {
+      "checkId": "impl-unit-tests",
+      "status": "passed",
+      "command": "npm run test",
+      "detail": "vitest run，1 个测试文件 4/4 用例通过",
+      "exitCode": 0,
+      "workdir": "repository root"
+    },
+    {
+      "checkId": "impl-build",
+      "status": "passed",
+      "command": "npm run build",
+      "detail": "tsc -b && vite build，29 个模块转换，dist 静态产物生成",
+      "exitCode": 0,
+      "workdir": "repository root"
+    },
+    {
+      "checkId": "impl-dev-server",
+      "status": "passed",
+      "command": "npm run dev（后台作业）",
+      "detail": "Vite v7.3.7 就绪于 http://localhost:5174/，HTTP 200；默认端口 5173 被其他任务占用，自动切换未占用他任务端口",
+      "workdir": "repository root"
+    },
+    {
+      "checkId": "implementation:application-route",
+      "status": "passed",
+      "applicationProfile": {
+        "applicationType": "simple-frontend",
+        "routeId": "inline",
+        "sha256": "sha256:af59dd9e7d9a02cde2e368dbb68141bda1aa288438c4aaba6414ac8f1ca873d0",
+        "path": ".expert-team/work-items/wi-t1000353/spec-state.json#/applicationProfile"
+      }
+    }
+  ]
+}
