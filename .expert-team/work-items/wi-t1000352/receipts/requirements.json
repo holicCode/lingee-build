@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "receiptId": "requirements:1",
+  "receiptType": "requirements-baseline",
+  "specId": "general-application-development-spec",
+  "graphRevision": 5,
+  "actionId": "requirements",
+  "inputRevision": 0,
+  "stateVersion": 1,
+  "outcome": "passed",
+  "contentHash": "sha256:3efe82b8f742ad09b5dd71c9ec656dcc2e674d7d2fbc358a8c884639eb3db2c2",
+  "createdAt": "2026-10-23T06:59:17.379Z",
+  "timing": {
+    "startedAt": "2026-10-23T06:58:45.474Z",
+    "completedAt": "2026-10-23T06:59:17.378Z",
+    "durationMs": 31904
+  },
+  "artifacts": [
+    {
+      "path": "docs/wi-t1000352/requirements.md",
+      "bytes": 1111,
+      "sha256": "sha256:d295da6ecba432aecf3c72fb238e689ea51afc5b1898fb6ed8b2ad8a91724bd8",
+      "role": "requirements",
+      "purpose": "笑脸界面需求基线：目标、核心需求与最小充分验收场景",
+      "title": "需求文档：笑脸界面（测试任务一）"
+    }
+  ],
+  "verification": [
+    {
+      "checkId": "ac-coverage",
+      "status": "passed"
+    },
+    {
+      "checkId": "source-separation",
+      "status": "passed"
+    }
+  ]
+}

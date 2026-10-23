@@ -1,0 +1,11 @@
+{
+  "workItemId": "wi-t1000352",
+  "applicationId": "application",
+  "workItemType": "initial-build",
+  "title": "测试任务一\n\n创建一个笑脸界面：在浏览器中展示一个笑脸图形页面，包含圆形脸部、眼睛与上扬的嘴角等表情元素，页面可直接打开查看。",
+  "request": "测试任务一\n\n创建一个笑脸界面：在浏览器中展示一个笑脸图形页面，包含圆形脸部、眼睛与上扬的嘴角等表情元素，页面可直接打开查看。",
+  "status": "active",
+  "specId": "general-application-development-spec",
+  "revision": 0,
+  "createdAt": "2026-10-23T06:58:45.343Z"
+}
