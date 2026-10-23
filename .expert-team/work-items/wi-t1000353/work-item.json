@@ -4,8 +4,15 @@
   "workItemType": "initial-build",
   "title": "测试任务二\n\n创建一个哭脸界面：在浏览器中展示一个哭脸图形页面，包含圆形脸部、眼睛、下垂的嘴角与泪滴等表情元素，页面可直接打开查看。",
   "request": "测试任务二\n\n创建一个哭脸界面：在浏览器中展示一个哭脸图形页面，包含圆形脸部、眼睛、下垂的嘴角与泪滴等表情元素，页面可直接打开查看。",
-  "status": "active",
+  "status": "completed",
   "specId": "general-application-development-spec",
-  "revision": 0,
-  "createdAt": "2026-10-23T07:04:16.317Z"
+  "revision": 1,
+  "createdAt": "2026-10-23T07:04:16.317Z",
+  "completedAt": "2026-10-23T07:18:51.432Z",
+  "completion": {
+    "applicationRevision": 1,
+    "snapshotHash": "sha256:bf5c4f41b1834625c3d06647cd28cce1a950484f4950a90cd65fe04176404232",
+    "completedAt": "2026-10-23T07:18:51.432Z"
+  },
+  "updatedAt": "2026-10-23T07:18:51.432Z"
 }

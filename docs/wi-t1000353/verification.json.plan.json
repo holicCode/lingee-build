@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "acceptance": [
+    {
+      "id": "AC-01",
+      "source": "requirements.md#AC-01",
+      "surface": "user-interface",
+      "evidenceKinds": [
+        "runtime-render",
+        "visual-style"
+      ],
+      "checkIds": [
+        "QA-01"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "checkId": "QA-01",
+      "type": "browser-ui",
+      "plan": [
+        {
+          "requirementId": "AC-01",
+          "kind": "runtime-render",
+          "action": "在浏览器中直接打开哭脸页面，查看页面渲染结果。",
+          "expected": "- 页面正常渲染，展示哭脸表情图形；"
+        },
+        {
+          "requirementId": "AC-01",
+          "kind": "visual-style",
+          "action": "在浏览器中直接打开哭脸页面，查看页面渲染结果。",
+          "expected": "- 页面正常渲染，展示哭脸表情图形；"
+        }
+      ]
+    }
+  ]
+}
