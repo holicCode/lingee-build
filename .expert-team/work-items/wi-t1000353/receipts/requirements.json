@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 2,
+  "receiptId": "requirements:1",
+  "receiptType": "requirements-baseline",
+  "specId": "general-application-development-spec",
+  "graphRevision": 5,
+  "actionId": "requirements",
+  "inputRevision": 0,
+  "stateVersion": 1,
+  "outcome": "passed",
+  "contentHash": "sha256:bd7c874e65e29cec50b2e3e10b08048dda56e3b641536305a351a14643b145da",
+  "createdAt": "2026-10-23T07:05:06.544Z",
+  "timing": {
+    "startedAt": "2026-10-23T07:04:16.465Z",
+    "completedAt": "2026-10-23T07:05:06.544Z",
+    "durationMs": 50079
+  },
+  "artifacts": [
+    {
+      "path": "docs/wi-t1000353/requirements.md",
+      "bytes": 1388,
+      "sha256": "sha256:ed69aed96faa07b2c9d2e7d9aa22bad5cb8ca42f8431de20de29148059a4c0db",
+      "role": "requirements",
+      "purpose": "哭脸界面需求基线：目标、核心行为规则与最小充分验收场景",
+      "title": "哭脸界面需求（WorkItem wi-t1000353）"
+    }
+  ],
+  "verification": [
+    {
+      "checkId": "artifact-written",
+      "status": "passed"
+    },
+    {
+      "checkId": "element-coverage",
+      "status": "passed"
+    },
+    {
+      "checkId": "direct-open-constraint",
+      "status": "passed"
+    },
+    {
+      "checkId": "ac-completeness",
+      "status": "passed"
+    }
+  ]
+}
