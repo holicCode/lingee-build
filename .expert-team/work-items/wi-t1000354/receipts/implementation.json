@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 2,
+  "receiptId": "implementation:3",
+  "receiptType": "implementation-report",
+  "specId": "general-application-development-spec",
+  "graphRevision": 5,
+  "actionId": "implementation",
+  "inputRevision": 2,
+  "stateVersion": 3,
+  "outcome": "passed",
+  "contentHash": "sha256:adc87cafd7dc6340a647107ec436d981e1a4d291fde5f11240708e069f5dea07",
+  "createdAt": "2026-10-23T07:12:26.746Z",
+  "timing": {
+    "startedAt": "2026-10-23T07:07:58.789Z",
+    "completedAt": "2026-10-23T07:12:26.746Z",
+    "durationMs": 267957
+  },
+  "artifacts": [
+    {
+      "path": "index.html",
+      "bytes": 2627,
+      "sha256": "sha256:4b2f59c3611197f2236527866492705c26b83ffe03167a91da76de9fe3246191",
+      "role": "application-entry",
+      "purpose": "生气脸界面唯一应用入口：自包含单文件静态页面，内嵌 SVG 呈现圆形脸部、皱起的眉毛、眼睛与下撇愤怒的嘴型，浏览器直接打开即可查看",
+      "title": "生气脸"
+    },
+    {
+      "path": "docs/wi-t1000354/implementation-report.md",
+      "bytes": 5425,
+      "sha256": "sha256:1434323539ce29b0dc4a7447eead6db71eb003248a180239199b98e9bc4f920f",
+      "role": "stage-report",
+      "purpose": "implementation 阶段实现报告：实现范围、AC-01 子断言对照、开发侧验证证据与遗留风险",
+      "title": "实现报告：生气脸界面（WorkItem: wi-t1000354 · implementation 阶段）"
+    },
+    {
+      "path": "tests/implementation-selfcheck.mjs",
+      "bytes": 4419,
+      "sha256": "sha256:07ca83e4db6cabdfecf4e923676f37143d2716974649592c98a1070bde0295bc",
+      "role": "dev-verification",
+      "purpose": "开发结构自检脚本：29 项断言覆盖文档结构、自包含性、表情元素存在性与眉毛/眼睛/嘴型几何"
+    },
+    {
+      "path": "README.md",
+      "bytes": 394,
+      "sha256": "sha256:6385db5a73a9c566aacdba1cb68c323731bff103e049819665c3a9d9fb07f94b",
+      "role": "documentation",
+      "purpose": "补充生气脸页面打开方式与自检命令说明",
+      "title": "lingee-build"
+    }
+  ],
+  "url": "http://127.0.0.1:64057/index.html",
+  "verification": [
+    {
+      "checkId": "structure-assertions",
+      "status": "passed"
+    },
+    {
+      "checkId": "implementation:application-route",
+      "status": "passed",
+      "applicationProfile": {
+        "applicationType": "simple-frontend",
+        "routeId": "inline",
+        "sha256": "sha256:c30e8d4f0334f9b56dd2a5db7bbfa98b8449a2924255ff54dda16ec27d15859f",
+        "path": ".expert-team/work-items/wi-t1000354/spec-state.json#/applicationProfile"
+      }
+    }
+  ]
+}

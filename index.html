@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>生气脸</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #26272e;
+      font-family: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+    .stage {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      padding: 32px 16px;
+    }
+    .stage h1 {
+      margin: 0;
+      color: #f3e9d8;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+    .face-svg {
+      width: min(72vmin, 520px);
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <main class="stage" aria-label="生气表情图形">
+    <h1>生气脸</h1>
+    <svg class="face-svg" viewBox="0 0 200 200" role="img" aria-labelledby="face-title" xmlns="http://www.w3.org/2000/svg">
+      <title id="face-title">生气表情：圆形脸部、皱起的眉毛、眼睛与下撇愤怒的嘴</title>
+      <defs>
+        <radialGradient id="face-gradient" cx="38%" cy="32%" r="80%">
+          <stop offset="0%" stop-color="#ffd24a"/>
+          <stop offset="100%" stop-color="#f2a63b"/>
+        </radialGradient>
+      </defs>
+      <!-- 圆形脸部 -->
+      <circle class="face" cx="100" cy="100" r="78" fill="url(#face-gradient)" stroke="#8a5218" stroke-width="3"/>
+      <!-- 眉间皱褶：体现“皱起”的眉部怒意 -->
+      <path class="frown-line" d="M 97 66 L 94 80" stroke="#5a2d0c" stroke-width="4" stroke-linecap="round"/>
+      <path class="frown-line" d="M 103 66 L 106 80" stroke="#5a2d0c" stroke-width="4" stroke-linecap="round"/>
+      <!-- 皱起的眉毛：外端高、内端低，向眉心方向下压 -->
+      <path class="brow-left" d="M 44 64 L 86 82" stroke="#5a2d0c" stroke-width="11" stroke-linecap="round"/>
+      <path class="brow-right" d="M 156 64 L 114 82" stroke="#5a2d0c" stroke-width="11" stroke-linecap="round"/>
+      <!-- 眼睛：位于左右眉毛下方，清晰可见 -->
+      <ellipse class="eye-left" cx="64" cy="102" rx="10" ry="13" fill="#3a1c07"/>
+      <ellipse class="eye-right" cx="136" cy="102" rx="10" ry="13" fill="#3a1c07"/>
+      <!-- 嘴：两端向下弯曲的下撇愤怒嘴型 -->
+      <path class="mouth" d="M 64 140 Q 100 118 136 140" fill="none" stroke="#5a2d0c" stroke-width="11" stroke-linecap="round"/>
+    </svg>
+  </main>
+</body>
+</html>
