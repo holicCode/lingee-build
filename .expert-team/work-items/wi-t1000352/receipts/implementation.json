@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 2,
+  "receiptId": "implementation:3",
+  "receiptType": "implementation-report",
+  "specId": "general-application-development-spec",
+  "graphRevision": 5,
+  "actionId": "implementation",
+  "inputRevision": 2,
+  "stateVersion": 3,
+  "outcome": "passed",
+  "contentHash": "sha256:ef074eb1030c45a7676009b0348ec9e40d3724990781b518f59b7fb3f1f20878",
+  "createdAt": "2026-10-23T07:06:27.435Z",
+  "timing": {
+    "startedAt": "2026-10-23T07:01:55.972Z",
+    "completedAt": "2026-10-23T07:06:27.435Z",
+    "durationMs": 271463
+  },
+  "artifacts": [
+    {
+      "path": "docs/wi-t1000352/implementation-report.md",
+      "bytes": 3634,
+      "sha256": "sha256:e294cd0f8baf83b0a290f49587be0764a15d9863b875a7b05910e06d1f115ff4",
+      "role": "implementation-report",
+      "purpose": "笑脸界面 implementation 阶段实现报告：交付行为、实现范围、开发验证证据（构建与单元测试均通过）及遗留 QA 事项",
+      "title": "实现报告：笑脸界面（测试任务一）— implementation 阶段"
+    }
+  ],
+  "url": "http://localhost:5173/",
+  "verification": [
+    {
+      "checkId": "build",
+      "status": "passed",
+      "command": "npm run build",
+      "evidence": "29 modules transformed；dist/index.html 0.39 kB、CSS 0.36 kB、JS 223.17 kB",
+      "exitCode": 0,
+      "workdir": "."
+    },
+    {
+      "checkId": "unit-tests",
+      "status": "passed",
+      "command": "npm run test",
+      "evidence": "Vitest 3.2.7 (jsdom)：Test Files 1 passed (1)，Tests 2 passed (2)",
+      "exitCode": 0,
+      "workdir": "."
+    },
+    {
+      "checkId": "ac-01-browser-render",
+      "status": "not-run",
+      "evidence": "runtime-render 证据类型，浏览器打开根路径观察笑脸的验收属 QA 阶段职责，实现阶段未执行"
+    },
+    {
+      "checkId": "implementation:application-route",
+      "status": "passed",
+      "applicationProfile": {
+        "applicationType": "simple-frontend",
+        "routeId": "inline",
+        "sha256": "sha256:c5ee3321522265bf43eccb5cf83d08fd790c44ec858d1078c526cf4912f14159",
+        "path": ".expert-team/work-items/wi-t1000352/spec-state.json#/applicationProfile"
+      }
+    }
+  ]
+}
