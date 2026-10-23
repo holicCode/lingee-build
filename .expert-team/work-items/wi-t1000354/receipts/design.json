@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "receiptId": "design:2",
+  "receiptType": "architecture-plan",
+  "specId": "general-application-development-spec",
+  "graphRevision": 5,
+  "actionId": "design",
+  "inputRevision": 1,
+  "stateVersion": 2,
+  "outcome": "passed",
+  "contentHash": "sha256:81daa30677f6befda3e8e5abd986f1b118415d0683269ac6a6c3106b21f214b4",
+  "createdAt": "2026-10-23T07:07:15.095Z",
+  "timing": {
+    "startedAt": "2026-10-23T07:05:53.115Z",
+    "completedAt": "2026-10-23T07:07:15.095Z",
+    "durationMs": 81980
+  },
+  "artifacts": [
+    {
+      "path": "docs/wi-t1000354/architecture-baseline.md",
+      "bytes": 3006,
+      "sha256": "sha256:6f0ca91dac0cf0a97449569aa26402383db764d341bf79351247e81a1e9fc156",
+      "role": "primary",
+      "purpose": "生气脸界面 compact 路线架构基线：单文件静态 HTML + 内嵌 SVG、无状态、无外部依赖、浏览器直接打开即可查看",
+      "title": "架构基线：生气脸界面（WorkItem: wi-t1000354）"
+    }
+  ],
+  "verification": [
+    {
+      "checkId": "design:completion",
+      "status": "passed"
+    },
+    {
+      "checkId": "design:application-route",
+      "status": "passed",
+      "applicationProfile": {
+        "applicationType": "simple-frontend",
+        "routeId": "compact",
+        "sha256": "sha256:c30e8d4f0334f9b56dd2a5db7bbfa98b8449a2924255ff54dda16ec27d15859f",
+        "path": ".expert-team/work-items/wi-t1000354/spec-state.json#/applicationProfile"
+      }
+    }
+  ]
+}

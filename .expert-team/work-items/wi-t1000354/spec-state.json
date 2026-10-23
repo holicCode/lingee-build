@@ -2,14 +2,42 @@
   "schemaVersion": 2,
   "specId": "general-application-development-spec",
   "specRevision": 14,
-  "state": "requirements_ready",
-  "revision": 1,
+  "state": "design_ready",
+  "revision": 2,
   "completedActions": [
-    "requirements"
+    "requirements",
+    "design"
   ],
   "blockers": [],
   "deliveryProfile": "standard",
   "graphRevision": 5,
   "graphHash": "sha256:9c3f304cfbb65de471791c872bf851dad3a7099e6db2e677caa20833d98192dd",
-  "updatedAt": "2026-10-23T07:05:21.739Z"
+  "updatedAt": "2026-10-23T07:07:15.095Z",
+  "applicationProfile": {
+    "schemaVersion": 1,
+    "applicationType": "simple-frontend",
+    "source": {
+      "artifactPath": "docs/wi-t1000354/requirements.md",
+      "sha256": "sha256:c4366d376df8f5e69a64f8087cd201b94e9a1326ec156e02e6b2f62e0286f1f7"
+    },
+    "reason": "需求为纯静态浏览器图形页面：打开即可查看生气表情（圆形脸部、皱眉、眼睛、下撇嘴型），无登录、无数据存取、无后台任务、无外部集成、无共享数据；部署方式明确为本地直接打开页面文件，验收仅涉及浏览器渲染与视觉呈现（runtime-render, visual-style）。",
+    "evidence": {
+      "supporting": [
+        "需求文档第 2 节明确页面打开即可直接查看，无需额外操作或登录",
+        "需求文档未规定事项明确：本地直接打开页面文件即可满足「可直接打开查看」",
+        "技术实现方式由实现阶段决定（SVG/CSS/Canvas 等纯前端技术）",
+        "唯一验收场景 AC-01 仅要求浏览器打开页面直接观察图形，证据类型为 runtime-render 与 visual-style"
+      ],
+      "excluding": [
+        "需求明确「无需额外操作或登录」，排除认证/权限要求",
+        "无服务端权威数据要求，页面无任何数据读取或存储",
+        "无后台任务、定时任务要求",
+        "无外部服务集成要求",
+        "无跨用户/跨设备数据共享要求，页面内容静态无状态"
+      ],
+      "unresolved": []
+    },
+    "decidedAt": "2026-10-23T07:06:17.353Z",
+    "sha256": "sha256:c30e8d4f0334f9b56dd2a5db7bbfa98b8449a2924255ff54dda16ec27d15859f"
+  }
 }
