@@ -2,14 +2,44 @@
   "schemaVersion": 2,
   "specId": "general-application-development-spec",
   "specRevision": 14,
-  "state": "requirements_ready",
-  "revision": 1,
+  "state": "design_ready",
+  "revision": 2,
   "completedActions": [
-    "requirements"
+    "requirements",
+    "design"
   ],
   "blockers": [],
   "deliveryProfile": "standard",
   "graphRevision": 5,
   "graphHash": "sha256:9c3f304cfbb65de471791c872bf851dad3a7099e6db2e677caa20833d98192dd",
-  "updatedAt": "2026-10-23T06:59:17.379Z"
+  "updatedAt": "2026-10-23T07:01:13.346Z",
+  "applicationProfile": {
+    "schemaVersion": 1,
+    "applicationType": "simple-frontend",
+    "source": {
+      "artifactPath": "docs/wi-t1000352/requirements.md",
+      "sha256": "sha256:d295da6ecba432aecf3c72fb238e689ea51afc5b1898fb6ed8b2ad8a91724bd8"
+    },
+    "reason": "批准的需求快照仅描述一个可在浏览器直接打开查看的静态笑脸图形页面，包含圆形脸部、眼睛与上扬的嘴角三个视觉元素；无数据存储、无服务端权威数据、无认证/权限、无后台任务、无外部集成、无跨用户/设备共享要求，也无任何动态交互需求。这是纯静态展示场景，simple-frontend 路线即可完整承载，且明显优于 fullstack-complex。",
+    "evidence": {
+      "supporting": [
+        "AC-01 仅要求页面可直接在浏览器打开并静态呈现笑脸图形（圆形脸部、眼睛、上扬的嘴角）",
+        "需求为纯展示页面，不包含任何 CRUD、表单或用户输入",
+        "无数据持久化或刷新后数据保留要求，连 localStorage 也非必需",
+        "未规定交互行为，页面无需任何动态逻辑",
+        "验证动作为在浏览器中打开并观察页面图形，证据类型为 runtime-render，属于纯前端渲染验证"
+      ],
+      "excluding": [
+        "需求未要求服务端权威数据或任何服务端能力",
+        "需求未要求认证、权限或用户体系",
+        "需求未要求后台任务或定时处理",
+        "需求未要求外部服务集成或第三方接口",
+        "需求未要求跨用户、跨设备或跨浏览器共享数据",
+        "未规定事项中不包含任何后端或数据相关要求"
+      ],
+      "unresolved": []
+    },
+    "decidedAt": "2026-10-23T07:00:12.343Z",
+    "sha256": "sha256:c5ee3321522265bf43eccb5cf83d08fd790c44ec858d1078c526cf4912f14159"
+  }
 }

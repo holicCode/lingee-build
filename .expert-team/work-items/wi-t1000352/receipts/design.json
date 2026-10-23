@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 2,
+  "receiptId": "design:2",
+  "receiptType": "architecture-plan",
+  "specId": "general-application-development-spec",
+  "graphRevision": 5,
+  "actionId": "design",
+  "inputRevision": 1,
+  "stateVersion": 2,
+  "outcome": "passed",
+  "contentHash": "sha256:2de32cf0819648758ab07cdb730771781964d630106cee6704edb3eb85cb6c94",
+  "createdAt": "2026-10-23T07:01:13.346Z",
+  "timing": {
+    "startedAt": "2026-10-23T06:59:55.050Z",
+    "completedAt": "2026-10-23T07:01:13.346Z",
+    "durationMs": 78296
+  },
+  "artifacts": [
+    {
+      "path": "docs/wi-t1000352/architecture-baseline.md",
+      "bytes": 2476,
+      "sha256": "sha256:e9547a55f9f04d4689f674382be833661702770c77e87f69f3722aa554abf6d1",
+      "role": "primary",
+      "purpose": "紧凑路线架构基线：引用已批准需求基线，冻结应用形态（React/Vite SPA 单页静态渲染）、页面与交互范围（圆形脸部/眼睛/上扬嘴角 SVG 图形、无交互）、数据归属（无任何持久化或服务端数据）与运行方式（npm run dev / npm run build 静态托管）。",
+      "title": "架构基线：笑脸界面（测试任务一）"
+    }
+  ],
+  "verification": [
+    {
+      "checkId": "design-artifact-written",
+      "status": "passed"
+    },
+    {
+      "checkId": "simple-frontend-classification-fixed",
+      "status": "passed"
+    },
+    {
+      "checkId": "design:application-route",
+      "status": "passed",
+      "applicationProfile": {
+        "applicationType": "simple-frontend",
+        "routeId": "compact",
+        "sha256": "sha256:c5ee3321522265bf43eccb5cf83d08fd790c44ec858d1078c526cf4912f14159",
+        "path": ".expert-team/work-items/wi-t1000352/spec-state.json#/applicationProfile"
+      }
+    }
+  ]
+}
