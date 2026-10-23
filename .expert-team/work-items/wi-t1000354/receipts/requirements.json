@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 2,
+  "receiptId": "requirements:1",
+  "receiptType": "requirements-baseline",
+  "specId": "general-application-development-spec",
+  "graphRevision": 5,
+  "actionId": "requirements",
+  "inputRevision": 0,
+  "stateVersion": 1,
+  "outcome": "passed",
+  "contentHash": "sha256:2388ae41817eb92741ec2a612dd78f937b1e8e2660829fbd216482386626f86c",
+  "createdAt": "2026-10-23T07:05:21.739Z",
+  "timing": {
+    "startedAt": "2026-10-23T07:04:31.725Z",
+    "completedAt": "2026-10-23T07:05:21.739Z",
+    "durationMs": 50014
+  },
+  "artifacts": [
+    {
+      "path": "docs/wi-t1000354/requirements.md",
+      "bytes": 1881,
+      "sha256": "sha256:c4366d376df8f5e69a64f8087cd201b94e9a1326ec156e02e6b2f62e0286f1f7",
+      "role": "requirements-document",
+      "purpose": "生气脸界面需求基线：目标、核心行为规则与验收场景",
+      "title": "需求文档：生气脸界面（WorkItem: wi-t1000354）"
+    }
+  ],
+  "verification": [
+    {
+      "checkId": "core-goal-coverage",
+      "status": "passed"
+    },
+    {
+      "checkId": "source-clarity",
+      "status": "passed"
+    },
+    {
+      "checkId": "no-fabrication",
+      "status": "passed"
+    },
+    {
+      "checkId": "complexity-fit",
+      "status": "passed"
+    }
+  ]
+}

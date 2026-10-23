@@ -1,0 +1,11 @@
+{
+  "workItemId": "wi-t1000354",
+  "applicationId": "application",
+  "workItemType": "initial-build",
+  "title": "测试任务三\n\n创建一个生气脸界面：在浏览器中展示一个生气表情图形页面，包含圆形脸部、皱起的眉毛、眼睛与下撇愤怒的嘴型等表情元素，页面可直接打开查看。",
+  "request": "测试任务三\n\n创建一个生气脸界面：在浏览器中展示一个生气表情图形页面，包含圆形脸部、皱起的眉毛、眼睛与下撇愤怒的嘴型等表情元素，页面可直接打开查看。",
+  "status": "active",
+  "specId": "general-application-development-spec",
+  "revision": 0,
+  "createdAt": "2026-10-23T07:04:31.587Z"
+}
