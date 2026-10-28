@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "receiptId": "design:2",
+  "receiptType": "architecture-plan",
+  "specId": "general-application-development-spec",
+  "graphRevision": 5,
+  "actionId": "design",
+  "inputRevision": 1,
+  "stateVersion": 2,
+  "outcome": "passed",
+  "contentHash": "sha256:dfad9999ddd2d1f656881bd96aeb502ac74047d4d4fbcbbc87f2174394fa1f87",
+  "createdAt": "2026-10-28T06:30:24.352Z",
+  "timing": {
+    "startedAt": "2026-10-28T06:29:12.037Z",
+    "completedAt": "2026-10-28T06:30:24.352Z",
+    "durationMs": 72315
+  },
+  "artifacts": [
+    {
+      "path": "docs/wi-t1000425/architecture-baseline.md",
+      "bytes": 2948,
+      "sha256": "sha256:97d8f5fd2b058e7a0a93911f94fc514362db08d3d1d8aa5a416345250a443a23",
+      "role": "primary",
+      "purpose": "羽毛球主视觉 Web 界面的紧凑架构基线：simple-frontend 路线结论、页面与交互范围、无持久化数据归属、React/Vite 实现入口与运行方式、动效可重复验证说明",
+      "title": "架构基线：羽毛球主视觉 Web 界面（wi-t1000425）"
+    }
+  ],
+  "verification": [
+    {
+      "checkId": "design:completion",
+      "status": "passed"
+    },
+    {
+      "checkId": "design:application-route",
+      "status": "passed",
+      "applicationProfile": {
+        "applicationType": "simple-frontend",
+        "routeId": "compact",
+        "sha256": "sha256:6ada939554ed37ce3a55625f5c16ca586a51e2bb192aa2de160e480c0ff3a754",
+        "path": ".expert-team/work-items/wi-t1000425/spec-state.json#/applicationProfile"
+      }
+    }
+  ]
+}

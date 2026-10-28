@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "continuationId": "ctn_4f2cf6cf-beb3-4b92-8b2d-67eed25251e3",
+  "workItemId": "wi-t1000425",
+  "workspaceRealpath": "/Users/kingdee/lingeebuild-beta/workspaces/42af49458a45340cc33efce9460b27db/付鹏城测试空间/.lingee-task-worktrees/wi-t1000425",
+  "target": "workflow",
+  "operation": "classify",
+  "fixedArguments": {
+    "--workspace": "/Users/kingdee/lingeebuild-beta/workspaces/42af49458a45340cc33efce9460b27db/付鹏城测试空间/.lingee-task-worktrees/wi-t1000425",
+    "--work-item": "wi-t1000425",
+    "--action": "design",
+    "--expected-revision": 1
+  },
+  "requiredInputs": {
+    "--classification-json": {
+      "source": "approved requirements snapshot",
+      "description": "Provide applicationType, reason, and evidence arrays supporting, excluding, unresolved. Use fullstack-complex when ambiguous.",
+      "encoding": "json",
+      "shellSafeAlternative": {
+        "flag": "--classification-json-file",
+        "description": "Write the JSON to a UTF-8 file and pass --classification-json-file <path> when the command must go through a shell; inline JSON loses its quotes on Windows PowerShell."
+      }
+    }
+  },
+  "status": "pending",
+  "createdAt": "2026-10-28T06:29:12.134Z",
+  "consumedAt": null
+}

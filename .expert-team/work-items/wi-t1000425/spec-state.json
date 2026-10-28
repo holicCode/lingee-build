@@ -2,14 +2,42 @@
   "schemaVersion": 2,
   "specId": "general-application-development-spec",
   "specRevision": 16,
-  "state": "requirements_ready",
-  "revision": 1,
+  "state": "design_ready",
+  "revision": 2,
   "completedActions": [
-    "requirements"
+    "requirements",
+    "design"
   ],
   "blockers": [],
   "scenarioId": "feature",
   "graphRevision": 5,
   "graphHash": "sha256:b40de31b37ec562e0cfe1005812bb53b4e422b4279e23a6892ffdc945663ffb2",
-  "updatedAt": "2026-10-28T06:12:12.861Z"
+  "updatedAt": "2026-10-28T06:30:24.352Z",
+  "applicationProfile": {
+    "schemaVersion": 1,
+    "applicationType": "simple-frontend",
+    "source": {
+      "artifactPath": "docs/wi-t1000425/requirements.md",
+      "sha256": "sha256:f98fe1179f8a7d2000d16ba3717e070ec8b61236aa1789ecb7e0b9c3fad65de8"
+    },
+    "reason": "已批准需求为纯前端单页视觉展示：中心呈现可辨识的羽毛球主视觉（球头与放射状羽片），配合统一视觉风格、光影动效与响应式布局；所有验收均为浏览器运行时观察（runtime-render/visual-style/error-feedback），不涉及数据持久化、服务端接口、认证、后台任务、外部集成或跨用户/设备共享。AC-03 的本地启动与浏览器访问可由静态前端开发服务器承载，因此选 simple-frontend（紧凑架构基线路线）。",
+    "evidence": {
+      "supporting": [
+        "需求为单页视觉展示界面：页面中心呈现羽毛球主视觉（球头与放射状羽片），配合视觉风格、光影动效与响应式布局",
+        "验收标准 AC-01/AC-02 仅需 runtime-render 与 visual-style 证据（浏览器观察页面主视觉、视口布局），AC-03 仅需 runtime-render 与 error-feedback 证据（本地启动、浏览器访问、控制台无报错）",
+        "入口类型均为用户界面，无服务端接口、数据模型或业务对象定义",
+        "需求明确未规定实现技术栈与构建方式，单页展示可由纯前端承载"
+      ],
+      "excluding": [
+        "需求未要求服务端权威数据：无数据库、无持久化语义（连刷新后数据保留都未要求），页面仅为静态视觉呈现",
+        "需求未要求认证/权限：单用户直接通过浏览器访问",
+        "需求未要求后台任务：无定时、异步或服务端计算",
+        "需求未要求外部服务集成：无第三方 API、外部系统调用",
+        "需求未要求跨用户/设备共享数据：无共享语义，无跨浏览器同步"
+      ],
+      "unresolved": []
+    },
+    "decidedAt": "2026-10-28T06:29:33.081Z",
+    "sha256": "sha256:6ada939554ed37ce3a55625f5c16ca586a51e2bb192aa2de160e480c0ff3a754"
+  }
 }
