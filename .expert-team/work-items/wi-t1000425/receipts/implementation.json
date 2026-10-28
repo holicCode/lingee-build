@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 2,
+  "receiptId": "implementation:3",
+  "receiptType": "implementation-report",
+  "specId": "general-application-development-spec",
+  "graphRevision": 5,
+  "actionId": "implementation",
+  "inputRevision": 2,
+  "stateVersion": 3,
+  "outcome": "passed",
+  "contentHash": "sha256:9542e638f7dc27873a14ba131aebee40cbe47e8eded76f7608518b1689de376b",
+  "createdAt": "2026-10-28T06:38:54.048Z",
+  "timing": {
+    "startedAt": "2026-10-28T06:31:49.479Z",
+    "completedAt": "2026-10-28T06:38:54.048Z",
+    "durationMs": 424569
+  },
+  "artifacts": [
+    {
+      "path": "docs/wi-t1000425/implementation-report.md",
+      "bytes": 5156,
+      "sha256": "sha256:65d4a5c2c8bc8bba1e952270fe237a3462f949df1b9e5cf71c7c4db52f5cceb8",
+      "role": "implementation-report",
+      "purpose": "实现阶段交付说明：新建 React/Vite 单页应用的实现范围、SVG 羽毛球主视觉结构、开发自检证据与 QA 浏览器验收入口交接",
+      "title": "实现报告：羽毛球主视觉 Web 界面（wi-t1000425 · implementation）"
+    }
+  ],
+  "url": "http://localhost:5180/",
+  "verification": [
+    {
+      "checkId": "impl-install",
+      "status": "passed"
+    },
+    {
+      "checkId": "impl-build",
+      "status": "passed"
+    },
+    {
+      "checkId": "impl-dev-server",
+      "status": "passed"
+    },
+    {
+      "checkId": "impl-http-probe",
+      "status": "passed"
+    },
+    {
+      "checkId": "implementation:application-route",
+      "status": "passed",
+      "applicationProfile": {
+        "applicationType": "simple-frontend",
+        "routeId": "inline",
+        "sha256": "sha256:6ada939554ed37ce3a55625f5c16ca586a51e2bb192aa2de160e480c0ff3a754",
+        "path": ".expert-team/work-items/wi-t1000425/spec-state.json#/applicationProfile"
+      }
+    }
+  ]
+}
