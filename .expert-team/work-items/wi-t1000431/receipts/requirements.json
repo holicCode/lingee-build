@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 2,
+  "receiptId": "requirements:1",
+  "receiptType": "requirements-baseline",
+  "specId": "general-application-development-spec",
+  "graphRevision": 5,
+  "actionId": "requirements",
+  "inputRevision": 0,
+  "stateVersion": 1,
+  "outcome": "passed",
+  "contentHash": "sha256:8fa845a8a3f3a5e3fc18222d24827a32297105ced193f853a0684529d5ff5fcf",
+  "createdAt": "2026-10-28T07:06:05.996Z",
+  "timing": {
+    "startedAt": "2026-10-28T07:04:15.195Z",
+    "completedAt": "2026-10-28T07:06:05.996Z",
+    "durationMs": 110801
+  },
+  "artifacts": [
+    {
+      "path": "docs/wi-t1000431/requirements.md",
+      "bytes": 4196,
+      "sha256": "sha256:997c18450d7ad10bca4ae2880c3c44027bf98fdfb0fac327fa86834ff5c06b6b",
+      "role": "requirements-baseline",
+      "purpose": "羽毛球界面需求基线：目标、5 项核心行为规则与 3 条可验收 AC",
+      "title": "需求：创建羽毛球界面"
+    }
+  ],
+  "verification": [
+    {
+      "checkId": "core-goal-coverage",
+      "status": "passed"
+    },
+    {
+      "checkId": "ac-observability",
+      "status": "passed"
+    },
+    {
+      "checkId": "scope-traceability",
+      "status": "passed"
+    },
+    {
+      "checkId": "doc-proportionality",
+      "status": "passed"
+    }
+  ]
+}

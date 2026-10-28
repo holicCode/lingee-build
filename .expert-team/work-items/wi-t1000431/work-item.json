@@ -1,0 +1,11 @@
+{
+  "workItemId": "wi-t1000431",
+  "applicationId": "application",
+  "workItemType": "initial-build",
+  "title": "创建羽毛球界面\n\n创建一个画着羽毛球的炫酷界面：页面中心绘制清晰可辨的羽毛球插画（球头与羽片结构分明），配合光影层次与动效，整体风格统一，桌面与移动端布局正常。\n\nOriginal task context (user-provided facts):\n\n{\"issueId\":\"20762693505912832\",\"code\":\"T1000431\",\"title\":\"创建羽毛球界面\",\"description\":\"创建一个画着羽毛球的炫酷界面：页面中心绘制清晰可辨的羽毛球插画（球头与羽片结构分明），配合光影层次与动效，整体风格统一，桌面与移动端布局正常。\",\"priority\":\"normal\",\"labels\":[],\"kind\":\"requirement\",\"acceptanceCriteria\":[{\"description\":\"页面中心呈现可辨识的羽毛球形象，球头与羽片等关键结构清晰\",\"verificationMethod\":\"review\"},{\"description\":\"视觉风格统一且具动效/光影层次，桌面与移动端布局不错乱\",\"verificationMethod\":\"review\"},{\"description\":\"页面可本地启动并正常访问，无控制台报错\",\"verificationMethod\":\"test\"}],\"projectName\":\"付鹏城测试空间\"}",
+  "request": "创建羽毛球界面\n\n创建一个画着羽毛球的炫酷界面：页面中心绘制清晰可辨的羽毛球插画（球头与羽片结构分明），配合光影层次与动效，整体风格统一，桌面与移动端布局正常。\n\nOriginal task context (user-provided facts):\n\n{\"issueId\":\"20762693505912832\",\"code\":\"T1000431\",\"title\":\"创建羽毛球界面\",\"description\":\"创建一个画着羽毛球的炫酷界面：页面中心绘制清晰可辨的羽毛球插画（球头与羽片结构分明），配合光影层次与动效，整体风格统一，桌面与移动端布局正常。\",\"priority\":\"normal\",\"labels\":[],\"kind\":\"requirement\",\"acceptanceCriteria\":[{\"description\":\"页面中心呈现可辨识的羽毛球形象，球头与羽片等关键结构清晰\",\"verificationMethod\":\"review\"},{\"description\":\"视觉风格统一且具动效/光影层次，桌面与移动端布局不错乱\",\"verificationMethod\":\"review\"},{\"description\":\"页面可本地启动并正常访问，无控制台报错\",\"verificationMethod\":\"test\"}],\"projectName\":\"付鹏城测试空间\"}",
+  "status": "active",
+  "specId": "general-application-development-spec",
+  "revision": 0,
+  "createdAt": "2026-10-28T07:04:15.050Z"
+}
