@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 2,
+  "receiptId": "requirements:1",
+  "receiptType": "requirements-baseline",
+  "specId": "general-application-development-spec",
+  "graphRevision": 5,
+  "actionId": "requirements",
+  "inputRevision": 0,
+  "stateVersion": 1,
+  "outcome": "passed",
+  "contentHash": "sha256:830851b6c02163d78daf0a0651670513e3790ae508c3834788ad6520aac63472",
+  "createdAt": "2026-10-28T06:12:12.861Z",
+  "timing": {
+    "startedAt": "2026-10-28T06:10:01.267Z",
+    "completedAt": "2026-10-28T06:12:12.861Z",
+    "durationMs": 131594
+  },
+  "artifacts": [
+    {
+      "path": "docs/wi-t1000425/requirements.md",
+      "bytes": 2481,
+      "sha256": "sha256:f98fe1179f8a7d2000d16ba3717e070ec8b61236aa1789ecb7e0b9c3fad65de8",
+      "role": "requirements",
+      "purpose": "羽毛球主视觉 Web 界面的需求基线：目标、核心规则与三条验收场景（AC-01 主视觉可辨识、AC-02 风格动效与响应式、AC-03 本地可访问无报错）",
+      "title": "需求：羽毛球主视觉 Web 界面（T1000425）"
+    }
+  ],
+  "verification": [
+    {
+      "checkId": "goal-coverage",
+      "status": "passed"
+    },
+    {
+      "checkId": "ac-traceability",
+      "status": "passed"
+    },
+    {
+      "checkId": "source-clarity",
+      "status": "passed"
+    },
+    {
+      "checkId": "no-fabricated-scope",
+      "status": "passed"
+    },
+    {
+      "checkId": "structure-proportionality",
+      "status": "passed"
+    }
+  ]
+}

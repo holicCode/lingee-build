@@ -1,0 +1,11 @@
+{
+  "workItemId": "wi-t1000425",
+  "applicationId": "application",
+  "workItemType": "initial-build",
+  "title": "创建羽毛球界面\n\n创建一个以羽毛球为主视觉的炫酷 Web 界面：页面中心呈现可辨识的羽毛球形象（球头与放射状羽片），配合统一的视觉风格、光影动效与响应式布局。\n\nOriginal task context (user-provided facts):\n\n{\"issueId\":\"20748782735990784\",\"code\":\"T1000425\",\"title\":\"创建羽毛球界面\",\"description\":\"创建一个以羽毛球为主视觉的炫酷 Web 界面：页面中心呈现可辨识的羽毛球形象（球头与放射状羽片），配合统一的视觉风格、光影动效与响应式布局。\",\"priority\":\"normal\",\"labels\":[],\"kind\":\"requirement\",\"acceptanceCriteria\":[{\"description\":\"页面中心区域呈现可辨识的羽毛球主体，球头与羽片结构清晰\",\"verificationMethod\":\"review\"},{\"description\":\"视觉风格统一且具备动效/光影层次，桌面与移动端布局不错乱\",\"verificationMethod\":\"review\"},{\"description\":\"页面可本地启动并通过浏览器正常访问，无控制台报错\",\"verificationMethod\":\"test\"}],\"projectName\":\"付鹏城测试空间\"}",
+  "request": "创建羽毛球界面\n\n创建一个以羽毛球为主视觉的炫酷 Web 界面：页面中心呈现可辨识的羽毛球形象（球头与放射状羽片），配合统一的视觉风格、光影动效与响应式布局。\n\nOriginal task context (user-provided facts):\n\n{\"issueId\":\"20748782735990784\",\"code\":\"T1000425\",\"title\":\"创建羽毛球界面\",\"description\":\"创建一个以羽毛球为主视觉的炫酷 Web 界面：页面中心呈现可辨识的羽毛球形象（球头与放射状羽片），配合统一的视觉风格、光影动效与响应式布局。\",\"priority\":\"normal\",\"labels\":[],\"kind\":\"requirement\",\"acceptanceCriteria\":[{\"description\":\"页面中心区域呈现可辨识的羽毛球主体，球头与羽片结构清晰\",\"verificationMethod\":\"review\"},{\"description\":\"视觉风格统一且具备动效/光影层次，桌面与移动端布局不错乱\",\"verificationMethod\":\"review\"},{\"description\":\"页面可本地启动并通过浏览器正常访问，无控制台报错\",\"verificationMethod\":\"test\"}],\"projectName\":\"付鹏城测试空间\"}",
+  "status": "active",
+  "specId": "general-application-development-spec",
+  "revision": 0,
+  "createdAt": "2026-10-28T06:10:01.113Z"
+}
